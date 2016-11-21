@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b558e882b3c264489ac46af85dafeecb43034761">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-RobotCore-release_002bf37439512399aad6dbc303627352beecd000/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d22d48ca1ee05051eb29f8431801b5b7c42020c0">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_91b1095d10ded4a34e03083f442d4b991f144c15/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7b9ed3615245e6b55e86d0bb4bf37d4409b77974">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/d2xx_601cbcd8d2ab96aa8c9cf46ff22cab754aa86c10/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d2dd83bd2107aa201a6805201c39b7cbd808888c">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Hardware-release_76499f70d66381b3e29bb9613811af2123002c80/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-ModernRobotics-release_123bd6b61ca76eb0840402cccd92fdf8a0a38cde/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b30156452c98e477e66c3291a745e28e554caf57">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_37dd29973adfee1f79a3f17b5000ebd077d49106/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-WirelessP2p-release_ca116bce6c692a82fcd1c2262310ba1ef7a3706c/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9fdc86f8ce625d52b396f38a23b5aad9dc9442d9">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-FtcCommon-release_a1d713d165914d49aade9be2b07c41a17326b615/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9ff7a8395c148fd269091bd7bf0911c5ef60b2f0">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Inspection-release_f0311ab3e0674b882720f5eb53d4071ab10881f2/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d92c8690b403f1844c49868ba8354e8fa75309a">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Blocks-release_690e651f6f516289427fa5702b81ab20fe82e379/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="29274488c1aafe24cdb18a96a2a59ea8d2196ac7">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_860e4f13a2662bbe2c718e1ed71e33a5a90242e0/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Analytics-release_661119c29a78fb7f2bd2dfd8e17e36c2040559ec/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d637de4d8f75e2af18759905bf40dd5c9d8b1d9">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_2bc076ab50fef32f709380d83168fc5362fd4af2/classes.dex" />
+    </item>
+    <item
+        jar="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="08e4e7089137bf0b2c6dac29cec74e86356f4680">
+        <dex dex="/home/dev/Desktop/ftc_app-master/YourCodeHere/build/intermediates/transforms/dex/debug/folders/1000/10/Vuforia_fe8bf576896523bac3033fdc016a094d83f6a470/classes.dex" />
+    </item>
+
+</items>
