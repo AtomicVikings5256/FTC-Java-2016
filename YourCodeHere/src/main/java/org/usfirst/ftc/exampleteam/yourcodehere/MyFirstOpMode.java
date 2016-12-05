@@ -23,9 +23,10 @@ public class MyFirstOpMode extends SynchronousOpMode
          * to 'get' must correspond to the names you assigned during the robot configuration
          * step you did in the FTC Robot Controller app on the phone.
          */
-        this.motorLeft = this.hardwareMap.dcMotor.get("motorLeft");
-        this.motorRight = this.hardwareMap.dcMotor.get("motorRight");
-        this.mFrontMech =  this.hardwareMap.dcMotor.get("motorFrontMech");
+            this.motorLeft = this.hardwareMap.dcMotor.get("motorLeft");
+            this.motorRight = this.hardwareMap.dcMotor.get("motorRight");
+            this.mFrontMech = this.hardwareMap.dcMotor.get("intakeMech");
+
 
         // Initalize Motors
         motorLeft.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
