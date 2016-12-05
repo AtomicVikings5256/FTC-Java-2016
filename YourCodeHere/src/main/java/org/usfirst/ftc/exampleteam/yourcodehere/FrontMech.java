@@ -21,7 +21,9 @@ public class FrontMech extends SynchronousOpMode
          * to 'get' must correspond to the names you assigned during the robot configuration
          * step you did in the FTC Robot Controller app on the phone.
          */
-        this.mFrontMech =  this.hardwareMap.dcMotor.get("motorFrontMech");
+
+            this.mFrontMech = this.hardwareMap.dcMotor.get("intakeMech");
+
 
         // Initalize Motors
         mFrontMech.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
