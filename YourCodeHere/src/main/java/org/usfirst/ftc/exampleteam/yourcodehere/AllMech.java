@@ -36,14 +36,14 @@ public class AllMech extends SynchronousOpMode {
         motorRight.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         mFrontMech.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         mLeft.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-
-        frontLeft.setPosition(0);
         // Wait for the game to start
         waitForStart();
 
         // Reverse Motor
         motorLeft.setDirection(DcMotor.Direction.REVERSE);
-
+        frontLeft.setPosition(1);
+        wait(500);
+        frontLeft.setPosition(.5);
         // Go go gadget robot!
         while (opModeIsActive()) {
             if (updateGamepads()) {
@@ -51,16 +51,6 @@ public class AllMech extends SynchronousOpMode {
                 motorRight.setPower(-gamepad1.right_stick_y);
                 mFrontMech.setPower(gamepad2.right_stick_y);//come back depending on driver
                 mLeft.setPower(gamepad2.left_stick_y);
-                if (gamepad2.a) {
-                    frontLeft.setPosition(0);
-                } else {
-                    frontLeft.setPosition(.5);
-                }
-                if (gamepad2.b) {
-                    frontLeft.setPosition(.5);
-                } else {
-                    frontLeft.setPosition(0);
-                }
             }
 
             telemetry.update();
