@@ -12,11 +12,11 @@ import org.swerverobotics.library.SynchronousOpMode;
 @TeleOp(name="AllMech")
 public class AllMech extends SynchronousOpMode {
     /* Declare here any fields you might find useful. */
-    DcMotor motorLeft = null;
-    DcMotor motorRight = null;
-    DcMotor mFrontMech = null;
-    DcMotor mLeft = null;
-    Servo frontLeft;
+    private DcMotor motorLeft = null;
+    private DcMotor motorRight = null;
+    private DcMotor mFrontMech = null;
+    private DcMotor mLeft = null;
+    private Servo frontLeft;
 
 
     @Override
@@ -41,9 +41,8 @@ public class AllMech extends SynchronousOpMode {
 
         // Reverse Motor
         motorLeft.setDirection(DcMotor.Direction.REVERSE);
-        frontLeft.setPosition(1);
-        wait(500);
-        frontLeft.setPosition(.5);
+
+
         // Go go gadget robot!
         while (opModeIsActive()) {
             if (updateGamepads()) {
@@ -51,6 +50,12 @@ public class AllMech extends SynchronousOpMode {
                 motorRight.setPower(-gamepad1.right_stick_y);
                 mFrontMech.setPower(gamepad2.right_stick_y);//come back depending on driver
                 mLeft.setPower(gamepad2.left_stick_y);
+                if (gamepad2.a){
+                    frontLeft.setPosition(1);
+                }
+                if (gamepad2.b){
+                    frontLeft.setPosition(0);
+                }
             }
 
             telemetry.update();
